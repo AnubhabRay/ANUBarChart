@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4EA996207C94A900A80D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EA995207C94A900A80D01 /* AppDelegate.swift */; };
+		CA4EA998207C94A900A80D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EA997207C94A900A80D01 /* ViewController.swift */; };
+		CA4EA99B207C94A900A80D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4EA999207C94A900A80D01 /* Main.storyboard */; };
+		CA4EA99D207C94A900A80D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4EA99C207C94A900A80D01 /* Assets.xcassets */; };
+		CA4EA9A0207C94A900A80D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4EA99E207C94A900A80D01 /* LaunchScreen.storyboard */; };
+		CA4EA9AB207C970F00A80D01 /* BarChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4EA9AA207C970F00A80D01 /* BarChartCell.xib */; };
+		CA4EA9AD207C972C00A80D01 /* AnuBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EA9AC207C972C00A80D01 /* AnuBarChartView.swift */; };
+		CA4EA9AF207C974000A80D01 /* AnuBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EA9AE207C974000A80D01 /* AnuBarCollectionViewCell.swift */; };
+		CA4EA9B1207CBEA100A80D01 /* AnuBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EA9B0207CBEA100A80D01 /* AnuBarModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA4EA992207C94A900A80D01 /* BarChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4EA995207C94A900A80D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA4EA997207C94A900A80D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA4EA99A207C94A900A80D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA4EA99C207C94A900A80D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4EA99F207C94A900A80D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA4EA9A1207C94A900A80D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4EA9AA207C970F00A80D01 /* BarChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarChartCell.xib; sourceTree = "<group>"; };
+		CA4EA9AC207C972C00A80D01 /* AnuBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnuBarChartView.swift; sourceTree = "<group>"; };
+		CA4EA9AE207C974000A80D01 /* AnuBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnuBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA4EA9B0207CBEA100A80D01 /* AnuBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnuBarModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA4EA98F207C94A900A80D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4EA989207C94A900A80D01 = {
+			isa = PBXGroup;
+			children = (
+				CA4EA994207C94A900A80D01 /* BarChartView */,
+				CA4EA993207C94A900A80D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA4EA993207C94A900A80D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4EA992207C94A900A80D01 /* BarChartView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA4EA994207C94A900A80D01 /* BarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				CA4EA9A7207C954100A80D01 /* BarChartVw */,
+				CA4EA995207C94A900A80D01 /* AppDelegate.swift */,
+				CA4EA997207C94A900A80D01 /* ViewController.swift */,
+				CA4EA999207C94A900A80D01 /* Main.storyboard */,
+				CA4EA99C207C94A900A80D01 /* Assets.xcassets */,
+				CA4EA99E207C94A900A80D01 /* LaunchScreen.storyboard */,
+				CA4EA9A1207C94A900A80D01 /* Info.plist */,
+			);
+			path = BarChartView;
+			sourceTree = "<group>";
+		};
+		CA4EA9A7207C954100A80D01 /* BarChartVw */ = {
+			isa = PBXGroup;
+			children = (
+				CA4EA9AA207C970F00A80D01 /* BarChartCell.xib */,
+				CA4EA9AC207C972C00A80D01 /* AnuBarChartView.swift */,
+				CA4EA9AE207C974000A80D01 /* AnuBarCollectionViewCell.swift */,
+				CA4EA9B0207CBEA100A80D01 /* AnuBarModel.swift */,
+			);
+			path = BarChartVw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA4EA991207C94A900A80D01 /* BarChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4EA9A4207C94A900A80D01 /* Build configuration list for PBXNativeTarget "BarChartView" */;
+			buildPhases = (
+				CA4EA98E207C94A900A80D01 /* Sources */,
+				CA4EA98F207C94A900A80D01 /* Frameworks */,
+				CA4EA990207C94A900A80D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarChartView;
+			productName = BarChartView;
+			productReference = CA4EA992207C94A900A80D01 /* BarChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA4EA98A207C94A900A80D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anubhab Ray";
+				TargetAttributes = {
+					CA4EA991207C94A900A80D01 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA4EA98D207C94A900A80D01 /* Build configuration list for PBXProject "BarChartView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA4EA989207C94A900A80D01;
+			productRefGroup = CA4EA993207C94A900A80D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA4EA991207C94A900A80D01 /* BarChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4EA990207C94A900A80D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4EA9A0207C94A900A80D01 /* LaunchScreen.storyboard in Resources */,
+				CA4EA99D207C94A900A80D01 /* Assets.xcassets in Resources */,
+				CA4EA9AB207C970F00A80D01 /* BarChartCell.xib in Resources */,
+				CA4EA99B207C94A900A80D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA4EA98E207C94A900A80D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4EA998207C94A900A80D01 /* ViewController.swift in Sources */,
+				CA4EA9AF207C974000A80D01 /* AnuBarCollectionViewCell.swift in Sources */,
+				CA4EA9AD207C972C00A80D01 /* AnuBarChartView.swift in Sources */,
+				CA4EA9B1207CBEA100A80D01 /* AnuBarModel.swift in Sources */,
+				CA4EA996207C94A900A80D01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA4EA999207C94A900A80D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4EA99A207C94A900A80D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA4EA99E207C94A900A80D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4EA99F207C94A900A80D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA4EA9A2207C94A900A80D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA4EA9A3207C94A900A80D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4EA9A5207C94A900A80D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9STZT28MB5;
+				INFOPLIST_FILE = BarChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innofied.BarChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA4EA9A6207C94A900A80D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9STZT28MB5;
+				INFOPLIST_FILE = BarChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innofied.BarChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA4EA98D207C94A900A80D01 /* Build configuration list for PBXProject "BarChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4EA9A2207C94A900A80D01 /* Debug */,
+				CA4EA9A3207C94A900A80D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4EA9A4207C94A900A80D01 /* Build configuration list for PBXNativeTarget "BarChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4EA9A5207C94A900A80D01 /* Debug */,
+				CA4EA9A6207C94A900A80D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA4EA98A207C94A900A80D01 /* Project object */;
+}
